@@ -21,7 +21,7 @@
     console.log("GPM_NTV_M_AIR_320x100");
     let div = document.querySelector("#GPM_NTV_M_AIR");
     div.classList.add("GPM_NTV_M_AIR_320x100");
-    window.MTT.wrapper({
+    window.GPM_NTV_M_AIR = window.MTT.wrapper({
       adfox: {
         ownerId: 277740,
         params: {
@@ -57,7 +57,7 @@
     console.log("GPM_NTV_M_AIR_300x250");
     let div = document.querySelector("#GPM_NTV_M_AIR");
     div.classList.add("GPM_NTV_M_AIR_300x250");
-    window.MTT.wrapper({
+    window.GPM_NTV_M_AIR = window.MTT.wrapper({
       adfox: {
         ownerId: 277740,
         params: {
