@@ -1,4 +1,3 @@
-<div id="GPM_NTV_M_AIR"></div>
 <style>
   .GPM_NTV_M_AIR_320x100 {
     margin: 0 auto;
@@ -13,6 +12,10 @@
   }
 </style>
 <script>
+  let base = document.querySelector(".air-page__footer");
+  let banner = document.createElement("div");
+  banner.id = "GPM_NTV_M_AIR";
+  base.before(banner);
   function randomizeCoin() {
     return Math.random() > 0.5 ? true : false;
   }
