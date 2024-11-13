@@ -1,12 +1,12 @@
 <style>
   .GPM_NTV_M_AIR_320x100 {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     max-width: 320px;
     max-height: 100px;
   }
 
   .GPM_NTV_M_AIR_300x250 {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     max-width: 300px;
     max-height: 250px;
   }
